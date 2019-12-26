@@ -1,18 +1,18 @@
 # building a game to practice/learn python .
 
 # This is just a simple game that asks for your input from the user to choose from multiple choices.
-player_health = 100
-player_attack = 10
-player_heal = 12
 
-monster_health = 100
-monster_attack = 13
 game_running = True
 start_game = input('Type gg to start the game:')
 
 while game_running == True:
    new_round = True
+   player_health = 100
+   player_attack = 10
+   player_heal = 12
 
+   monster_health = 100
+   monster_attack = 13
    while new_round == True:
 
        player_won = False
