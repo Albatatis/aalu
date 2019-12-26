@@ -1,0 +1,29 @@
+# This program is about list of a contacts in which it asks the user for input and check if it's inside the list or not.
+
+# First, I have to search if there's any library for inbulit list.
+# Okay, i couldn't find any list yet so i'll make my on short list for now.
+
+
+myCousins = ['zarka', 'khaja', 'tabrez', 'rahil', 'romisha', 'zakir', 'zahid','aaysha'] #List of my cousins. Afcourse not from same paretns, lol!
+#Yea i learned it from a book. but i added many things on my own. like While-loop, break, continue and other changes.
+while True:
+    print('name any cousin:')
+    name = input()
+
+
+    if name in myCousins:
+       print(name + ' is found')
+       break
+
+    else:
+        print(name + ' is a not a cousin, Try again!')
+        continue
+#wow i've never been so happy before.:), it's running ,
+#The original program is below.
+#           myPets = ['Zophie', 'Pooka', 'Fat-tail']
+#           print('Enter a pet name:')
+#           name = input()
+#           if name not in myPets:
+#              print('I do not have a pet named ' + name)
+#           else:
+#            print(name + ' is my pet.')
